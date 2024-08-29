@@ -14,7 +14,7 @@ body {
 .container {
     max-width: 800px;
     width: 100%;
-    margin: 20px;
+    margin: 2%;
 }
 
 .section {
@@ -124,7 +124,7 @@ p.descrip {
     background-color: #000;
     position: sticky;
     /* esto hace que se mueva con la página */
-    top: 20px;
+    top: 4%;
     border-radius: 30px;
 }
 
@@ -329,11 +329,6 @@ a {
     body{
         width: 100%;
     }
-
-    
-
-
-
     .perfil {
         width: 100%;
         display: flex;
@@ -343,7 +338,7 @@ a {
 
 
     .profile{
-        width: 75%;
+        width: 55%;
     }
 
     .botones {
@@ -366,4 +361,20 @@ a {
     .subsection-trabajar{
         width: 100%;
     }
+}
+@media screen and (max-width: 550px) {
+
+    .sticky-nav{
+        margin-left: 2%;
+    }
+
+}
+
+@media screen and (max-width: 435px) {
+
+  .container{
+    margin: -2%;
+  }
+
+
 }
