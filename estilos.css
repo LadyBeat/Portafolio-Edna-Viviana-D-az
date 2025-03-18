@@ -23,7 +23,7 @@ body {
     border-radius: 7px;
     margin-bottom: 1px;
     display: flex;
-
+    
 }
 
 .subsection {
@@ -201,7 +201,7 @@ ul {
 
 .w-input {
     color: #333;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     background-color: #fff;
     width: 100%;
     padding: 8px 12px;
