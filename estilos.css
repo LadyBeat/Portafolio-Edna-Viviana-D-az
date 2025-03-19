@@ -288,7 +288,7 @@ a {
 
 .contenedor-padre{
     display: flex;
-    flex-wrap: wrap;
+   
 }
 .subsection-trabajar{
     background-color: white;
@@ -299,7 +299,7 @@ a {
     width: 50%;
 
 }
-.contenido-trabajar{
+.card{
    display: flex;
    flex-direction: column;
    align-items: center;
