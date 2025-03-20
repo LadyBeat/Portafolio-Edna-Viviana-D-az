@@ -309,11 +309,55 @@ a {
     width: 50%;
 
 }
-.card{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+
+.card {
+    max-width: 380px; /* Ancho máximo para todas las tarjetas */
+    max-height: 800px; /* Alto máximo para todas las tarjetas */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido esté distribuido */
+    align-items: center;
+    margin: auto; /* Centra las tarjetas */
+   
 }
+
+.card-img-top {
+    max-height: 200px; /* Ajusta la altura máxima de las imágenes */
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho */
+}
+
+.card-body{
+    flex: 1; /* Permite que el cuerpo de la tarjeta ocupe el espacio disponible */
+    display: flex;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+    justify-content: space-between; /* Distribuye los elementos dentro del cuerpo */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */   
+}
+
+.tool-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tool-button {
+    background-color: #874c8b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tool-button:hover {
+    background-color: #5a2c5d;
+}
+
+
 .espaciado{
     margin-top: 40px;
 }
