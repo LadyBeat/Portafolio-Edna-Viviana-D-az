@@ -60,9 +60,20 @@ body {
     margin: 0 10px 0 0;
 }
 
-.firma {
-    align-self: flex-end;
-    margin-bottom: 20px;
+.social-icons-header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: #874c8b;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #5a2c5d;
 }
 
 .profile {
@@ -115,9 +126,8 @@ p.descrip {
 }
 
 .btn-decargarCv {
-    background-color: rgb(93, 179, 193);
+    background-color: rgb(145, 206, 215);
     color: black;
-    border: solid black;
     padding: 5px 5px;
     border-radius: 30px;
     text-decoration: underline;
