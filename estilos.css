@@ -85,10 +85,16 @@ body {
 
 .imgPerfil {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-   
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    text-align: center;
 
+}
+.imgPerfil img {
+    border-radius: 50%; /* Opcional: hace la imagen circular */
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 p.descrip {
